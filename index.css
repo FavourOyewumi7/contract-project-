@@ -1,0 +1,220 @@
+* {
+  font-family: "General Sans", sans-serif;
+}
+:root {
+  --t-green: #084c3b;
+  --t-yellow: #fed06e;
+  --t-black: #2a2a2a;
+  --t-grey:#676767;
+  --bg-yellow: #fffcf2;
+  --bg-dyellow: #fed06e;
+  --t-gray: #676767;
+  --bg-black:#1B1D21;
+  --bg-footer: #ffffff14;
+}
+.header {
+  background-color: #ffffff;
+}
+.app-container {
+  max-width: 100vw;
+}
+.nav-link {
+  font-weight: 550;
+  color: #797979;
+}
+.nav-link:hover {
+  color: #084c3b;
+}
+.login-button {
+  color: var(--t-green);
+  background-color: var(--t-yellow);
+}
+.login-button:hover {
+  color: #ffffff;
+  background-color: var(--t-yellow);
+}
+.signup-button {
+  color: #ffffff;
+  background-color: var(--t-green);
+}
+.signup-button:hover {
+  color: #454545;
+  background-color: #2aaa88;
+}
+.landing-section {
+  position: relative;
+  max-width: 90vw;
+}
+.star {
+  position: absolute;
+  left: -50px;
+  top: 60px;
+}
+.landing-main-text {
+  font-weight: 700;
+  text-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
+  font-style: normal;
+  font-size: 75px;
+  font-weight: 700;
+  line-height: 110%;
+  letter-spacing: -0.75px;
+}
+.landing-main-text_color {
+  color: var(--t-green);
+}
+.landing-main-subtext {
+  color: var(--t-gray);
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%;
+  letter-spacing: 0.2px;
+}
+.section-head {
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 110%;
+  letter-spacing: -0.4px;
+  color: var(--t-green);
+  margin: 0;
+}
+.text-shadow {
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.features_section {
+  background: var(--bg-yellow);
+}
+.feature-card {
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%; /* 38.4px */
+  letter-spacing: -1.6px;
+  color: var(--t-green);
+  margin: 0;
+}
+.feature-card-alt {
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%; /* 38.4px */
+  letter-spacing: -1.6px;
+  color: white;
+}
+.feature-border {
+  border-color: var(--t-green);
+  border-width: 1px;
+  border-radius: 8px 8px 8px 8px;
+  border-style: solid;
+}
+.feature-add {
+  background-color: var(--t-green);
+  color: white !important;
+  border-width: 2px;
+  border-radius: 8px 8px 8px 8px;
+  border-style: solid;
+}
+.feature-add h4 {
+  color: white !important;
+}
+.feature-add .feature-text {
+  padding-top: 0.6rem;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 130%;
+}
+.feature-text {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 130%;
+}
+
+.card-text {
+  color: var(--t-green);
+  padding: 0.3rem 0;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 130%;
+}
+.card-text-width {
+  padding-top: 1rem;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%;
+}
+.card-sub-text {
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 125%; /* 20px */
+  letter-spacing: 0.16px;
+}
+.first_bitewise {
+  background: var(--bg-yellow);
+  height: 100vh;
+}
+.bitewise-header {
+  font-size: 3.75rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 110%; /* 66px */
+  letter-spacing: -0.6px;
+  color: var(--t-green);
+}
+.bitewise-header-1{
+  color: var(--t-yellow) !important;
+}
+.bitewise-text {
+  color: var(--t-black);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%;
+}
+.index{
+  z-index: 10;
+}
+.motivation{
+  color: var(--t-green);
+font-size: 16.674px;
+font-style: normal;
+font-weight: 500;
+line-height: 125%; /* 20.842px */
+letter-spacing: -0.083px;
+}
+.motivation-sub{
+  color: var(--t-grey );
+text-align: center;
+font-family: General Sans;
+font-size: 15.391px;
+font-style: normal;
+font-weight: 500;
+line-height: 125%; /* 19.239px */
+letter-spacing: -0.077px;
+padding-top: 0;
+margin-top: 0;
+}
+/*
+
+.bitewise{
+  height: 1020px;
+  width: 600px;
+}
+*/
+.footer {
+  background: var(--bg-black);
+}
+.footer h1 {
+  color: var(--t-green);
+  font-size: 100px;
+  height: 30vh;
+}
+.test {
+  display: none;
+}
+.footer-text{
+  background-color: var(--bg-footer);
+}
